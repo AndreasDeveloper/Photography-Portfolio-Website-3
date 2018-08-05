@@ -9,3 +9,12 @@
     padding: 0;
     box-sizing: inherit;
 }
+
+html {
+    /* DEFINES WHAT REM IS */
+    font-size: 62.5%; /* Takes 62.5% of the default font size (16px). 100 / 16 = 62.5  */
+}
+
+body {
+    box-sizing: border-box;
+}
