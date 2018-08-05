@@ -1,0 +1,23 @@
+{
+  "name": "photography3",
+  "version": "1.0.0",
+  "description": "Website related to photography (portfolio)",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass resources/sass/main.scss resources/css3/style.css -w",
+    "watch:sass": "nodemon -e scss -x \"npm run compile:sass\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreasDeveloper/Photography-Portfolio-Website-3.git"
+  },
+  "author": "AndreasDEV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreasDeveloper/Photography-Portfolio-Website-3/issues"
+  },
+  "homepage": "https://github.com/AndreasDeveloper/Photography-Portfolio-Website-3#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
