@@ -73,6 +73,27 @@ body {
     animation-duration: 2s;
     animation-timing-function: ease-out; }
 
+/* ------------------------------------------- */
+/* HEADING SECONDARY | TEXT / STYLE H2
+/* ------------------------------------------- */
+.heading-secondary {
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(to right, #9b59b6, #66317c);
+  -webkit-background-clip: text;
+  color: transparent; }
+
+/* ---------------------------------------------------------- */
+/* U-CENTER-TEXT CLASS IN ABOUT SECTION | CENTERING THE TEXT
+/* ---------------------------------------------------------- */
+.u-center-text {
+  text-align: center; }
+
+/* ---------------------------------------------------------------- */
+/* U-MARGIN-BOTTOM-SMALL CLASS IN ABOUT SECTION | POSITION THE TEXT
+/* ---------------------------------------------------------------- */
 /* - COMPONENTS FOLDER FILES - */
 /* ------------------------------------------- */
 /* BUTTON WHITE | HEADER
@@ -172,4 +193,10 @@ body {
     width: calc( 3 * ((100% - 3 * 6rem) / 3) + 2 * 6rem); }
 
 /* - PAGES FOLDER FILES - */
-/* ADD PAGE */
+/* ------------------------------------------- */
+/* SECTION ABOUT | IN HOME PAGE
+/* ------------------------------------------- */
+.section-about {
+  background-color: #f7f7f7;
+  padding: 25rem 0;
+  margin-top: -20vh; }

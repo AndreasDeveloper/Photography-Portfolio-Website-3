@@ -45,3 +45,19 @@ body {
         animation-timing-function: ease-out;
     }
 }
+
+/* ------------------------------------------- */
+/* HEADING SECONDARY | TEXT / STYLE H2
+/* ------------------------------------------- */
+
+.heading-secondary {
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    // SETUP THE TEXT (h2) TO DISPLAY WITH MULTIPLE COLORS IN THE BACKGROUND \\
+    display: inline-block;
+    background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+    -webkit-background-clip: text;
+    color: transparent;
+}
