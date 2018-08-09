@@ -1,0 +1,108 @@
+/* ------------------------------------------- */
+/* COMPOSITION | ABOUT SECTION - PICTURES
+/* ------------------------------------------- */
+
+.composition {
+    position: relative;
+
+    &__photo {
+        width: 120%;
+        box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
+        border-radius: 2px;
+        position: absolute;
+        z-index: 10;
+        transition: all .2s;
+        outline-offset: 2rem;
+
+        // PHOTO FROM 1 TO 6 HEIGHT/TOP IN ABOUT SECTION \\
+        &--p1 
+        &--p2
+        &--p3
+        &--p4
+        &--p5
+        &--p6 {
+            top: 5rem;
+        }
+
+
+        &--p2 {
+            left: 42rem;
+        }
+
+        &--p3 {
+            left: 260%;
+        }
+
+        &--p4 {
+            left: -4rem;
+        }
+
+        &--p5 {
+            left: 42rem;
+        }
+
+        &--p6 {
+            left: 260%;
+        }
+
+        // PHOTO FROM 7 TO 9 IN ABOUT SECTION \\
+        &--p7 {
+            top: 26rem;
+            left: -4rem;
+        }
+
+        &--p8 {
+            top: 26rem;
+            left: 42rem;
+        }
+
+        &--p9 {
+            top: 26rem;
+            left: 260%;
+        }
+
+        // PHOTO FROM 10 TO 12 IN ABOUT SECTION \\
+        &--p10 {
+            top: 50rem;
+            left: -4rem;
+        }
+
+        &--p11 {
+            top: 50rem;
+            left: 42rem;
+        }
+
+        &--p12 {
+            top: 50rem;
+            left: 260%;
+        }
+
+        // PHOTO FROM 13 TO 15 IN ABOUT SECTION \\
+        &--p13 {
+            top: 75rem;
+            left: -4rem;
+        }
+
+        &--p14 {
+            top: 75rem;
+            left: 42rem;
+        }
+
+        &--p15 {
+            top: 75rem;
+            left: 260%;
+        }
+
+        &:hover {
+            outline: 1.5rem solid $color-primary;
+            transform: scale(1.05) translateY(-.5rem);
+            box-shadow: 0 2.5rem 4rem rgba($color-black, .5);
+            z-index: 20;
+        }
+    }
+
+    /*&:hover &__photo:not(:hover) {    // DELETE THIS IF LOWER IMAGES ON HOVER EFFECT IS NEEDED \\
+        transform: scale(.95);
+    }*/
+
+}

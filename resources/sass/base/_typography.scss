@@ -61,3 +61,35 @@ body {
     -webkit-background-clip: text;
     color: transparent;
 }
+
+/* --------------------------------------------- */
+/* HEADING TERTIARY + PARAGRAPH| TEXT / STYLE H3/P
+/* --------------------------------------------- */
+
+.heading-tertiary {
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    &--about {
+        font-size: 3rem;
+        text-align: center;
+        padding-bottom: 5rem;
+    }
+
+}
+
+
+/* -- PARAGRAPH -- */
+.paragraph {
+    font-size: 1.6rem;
+
+    &--about {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+}
