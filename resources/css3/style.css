@@ -277,6 +277,8 @@ body {
     outline-offset: 2rem; }
     .composition__photo--p1 .composition__photo--p2 .composition__photo--p3 .composition__photo--p4 .composition__photo--p5 .composition__photo--p6 {
       top: 5rem; }
+    .composition__photo--p1 {
+      left: -4rem; }
     .composition__photo--p2 {
       left: 42rem; }
     .composition__photo--p3 {
