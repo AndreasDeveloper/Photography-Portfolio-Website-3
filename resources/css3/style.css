@@ -392,6 +392,84 @@ body {
   .row .col-3-of-4 {
     width: calc( 3 * ((100% - 3 * 6rem) / 3) + 2 * 6rem); }
 
+/* ------------------------------------------- */
+/* FOOTER
+/* ------------------------------------------- */
+.footer {
+  background-color: #333;
+  padding: 10rem;
+  font-size: 1.5rem;
+  color: #f7f7f7;
+  position: relative; }
+  .footer__navigation {
+    border-top: 1px solid #777;
+    padding-top: 2rem;
+    display: inline-block; }
+  .footer__list {
+    list-style: none; }
+  .footer__item {
+    display: inline-block; }
+    .footer__item:not(:last-child) {
+      margin-right: 1.5rem; }
+  .footer__link-1:link, .footer__link-1:visited {
+    color: #f7f7f7;
+    background-color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: all .2s; }
+  .footer__link-1:hover, .footer__link-1:active {
+    color: #8e44ad;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+    transform: rotate(5deg) scale(1.3); }
+  .footer__link-2:link, .footer__link-2:visited {
+    color: #f7f7f7;
+    background-color: #333;
+    text-decoration: none;
+    display: inline-block;
+    transition: all .2s; }
+  .footer__link-2:hover, .footer__link-2:active {
+    color: #8e44ad;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+    transform: rotate(5deg) scale(1.3); }
+  .footer__copyright {
+    border-top: 1px solid #777;
+    padding-top: 2rem;
+    width: 80%; }
+  .footer__contact-info {
+    font-size: 1.8rem;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    display: inline-block; }
+  .footer__social-links {
+    list-style: none;
+    position: absolute;
+    top: 38%;
+    left: 75%;
+    letter-spacing: 1rem; }
+  .footer__social-list {
+    display: inline-block; }
+    .footer__social-list:not(:last-child) {
+      margin-right: 2rem; }
+  .footer__social-anchor:link, .footer__social-anchor:visited {
+    text-decoration: none;
+    border: 0;
+    color: #777;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+    font-size: 400%; }
+  .footer icon ion-logo-facebook,
+  .footer icon ion-logo-instagram,
+  .footer icon ion-logo-twitter {
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s; }
+  .footer .ion-logo-facebook:hover {
+    color: #3b5999; }
+  .footer .ion-logo-instagram:hover {
+    color: #e4405f; }
+  .footer .ion-logo-twitter:hover {
+    color: #55acee; }
+
 /* - PAGES FOLDER FILES - */
 /* ------------------------------------------- */
 /* SECTION ABOUT | IN HOME PAGE

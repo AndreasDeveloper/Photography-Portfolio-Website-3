@@ -1,0 +1,136 @@
+/* ------------------------------------------- */
+/* FOOTER
+/* ------------------------------------------- */
+
+.footer {
+    background-color: $color-grey-dark-2;
+    padding: 10rem;
+    font-size: 1.5rem;
+    color: $color-grey-light-1;
+    position: relative;
+
+    &__logo-box {
+        // IF THERE IS A PICTURE \\ 
+    }
+
+    &__logo {
+        // IF THERE IS A PICTURE \\ 
+    }
+
+    &__navigation {
+        border-top: 1px solid $color-gray-dark;
+        padding-top: 2rem;
+        display: inline-block;
+    }
+
+    &__list {
+        list-style: none;
+    }
+
+    &__item {
+        display: inline-block;
+
+        &:not(:last-child) {
+            margin-right: 1.5rem;
+        }
+    }
+
+    &__link-1 {
+        &:link,
+        &:visited {
+            color: $color-grey-light-1;
+            background-color: $color-grey-dark-2;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: inline-block;
+            transition: all .2s;
+        }
+
+        &:hover,
+        &:active {
+            color: $color-primary;
+            box-shadow: 0 1rem 2rem rgba($color-black, .4);
+            transform: rotate(5deg) scale(1.3);
+        }
+    }
+
+    &__link-2 {
+        &:link,
+        &:visited {
+            color: $color-grey-light-1;
+            background-color: $color-grey-dark-2;
+            text-decoration: none;
+            display: inline-block;
+            transition: all .2s;
+        }
+
+        &:hover,
+        &:active {
+            color: $color-primary;
+            box-shadow: 0 1rem 2rem rgba($color-black, .4);
+            transform: rotate(5deg) scale(1.3);
+        }
+    }
+
+    &__copyright {
+        border-top: 1px solid $color-gray-dark;
+        padding-top: 2rem;
+        width: 80%;
+    }
+
+    &__contact-info {
+        font-size: 1.8rem;
+        padding-top: 4rem;
+        padding-bottom: 3rem;
+        display: inline-block;
+    }
+
+    // --- SOCIAL LINKS --- \\
+
+    &__social-links {
+        list-style: none;
+        position: absolute;
+        top: 38%;
+        left: 75%;
+        letter-spacing: 1rem;
+    }
+
+    &__social-list {
+        display: inline-block;
+        
+        &:not(:last-child) {
+            margin-right: 2rem;
+        }
+    }
+
+    &__social-anchor {
+        &:link,
+        &:visited {
+            text-decoration: none;
+            border: 0;
+            color: $color-gray-dark;
+            -webkit-transition: color 0.2s;
+            transition: color 0.2s;
+            font-size: 400%;
+        }
+    }
+
+    icon ion-logo-facebook,
+    icon ion-logo-instagram,
+    icon ion-logo-twitter {
+        -webkit-transition: color 0.2s;
+        transition: color 0.2s;
+    }
+
+    .ion-logo-facebook:hover {
+        color: #3b5999;
+    }
+
+    .ion-logo-instagram:hover {
+        color: #e4405f;
+    }
+
+    .ion-logo-twitter:hover {
+        color: #55acee;
+    }
+}
