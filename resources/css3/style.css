@@ -275,13 +275,14 @@ body {
     z-index: 10;
     transition: all .2s;
     outline-offset: 2rem; }
-    .composition__photo--p1 .composition__photo--p2 .composition__photo--p3 .composition__photo--p4 .composition__photo--p5 .composition__photo--p6 {
-      top: 5rem; }
     .composition__photo--p1 {
+      top: 5rem;
       left: -4rem; }
     .composition__photo--p2 {
+      top: 5rem;
       left: 42rem; }
     .composition__photo--p3 {
+      top: 5rem;
       left: 260%; }
     .composition__photo--p4 {
       left: -4rem; }
@@ -290,31 +291,31 @@ body {
     .composition__photo--p6 {
       left: 260%; }
     .composition__photo--p7 {
-      top: 26rem;
+      top: 60rem;
       left: -4rem; }
     .composition__photo--p8 {
-      top: 26rem;
+      top: 60rem;
       left: 42rem; }
     .composition__photo--p9 {
-      top: 26rem;
+      top: 60rem;
       left: 260%; }
     .composition__photo--p10 {
-      top: 50rem;
+      top: 120rem;
       left: -4rem; }
     .composition__photo--p11 {
-      top: 50rem;
+      top: 120rem;
       left: 42rem; }
     .composition__photo--p12 {
-      top: 50rem;
+      top: 120rem;
       left: 260%; }
     .composition__photo--p13 {
-      top: 75rem;
+      top: 180rem;
       left: -4rem; }
     .composition__photo--p14 {
-      top: 75rem;
+      top: 180rem;
       left: 42rem; }
     .composition__photo--p15 {
-      top: 75rem;
+      top: 180rem;
       left: 260%; }
     .composition__photo:hover {
       outline: 1.5rem solid #8e44ad;
@@ -351,7 +352,7 @@ body {
 /* ------------------------------------------- */
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, rgba(155, 89, 182, 0.8), rgba(102, 49, 124, 0.8)), url(../images/header-3.jpg);
+  background-image: linear-gradient(to right bottom, rgba(155, 89, 182, 0.8), rgba(102, 49, 124, 0.8)), url(../images/r-header-2.jpg);
   background-size: cover;
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
@@ -484,7 +485,7 @@ body {
 /* ------------------------------------------- */
 .section-services {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(155, 89, 182, 0.8), rgba(102, 49, 124, 0.8)), url(../images/header-2.jpg);
+  background-image: linear-gradient(to right bottom, rgba(155, 89, 182, 0.8), rgba(102, 49, 124, 0.8)), url(../images/r-header-1.jpg);
   background-size: cover;
   margin-top: 15rem;
   transform: skewY(-7deg); }
@@ -497,4 +498,4 @@ body {
 .section-showcase {
   background-color: #f7f7f7;
   padding-top: 15rem;
-  padding-bottom: 110rem; }
+  padding-bottom: 250rem; }
